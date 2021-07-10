@@ -1,0 +1,11 @@
+body {font-family:Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-weight:500;font-size:14px;letter-spacing:0.25px;line-height:16px;margin-left:10px;}
+.upper_right_links {text-align: right; margin: 20px;}
+.search_form {text-align: center; box-align: center; padding: 20px; margin: 10px;
+    -moz-border-radius: 20px; -webkit-border-radius: 20px;}
+    @media (min-width: 800px){.query_bar {width: 640px;}}
+    @media (max-width: 799px){.query_bar {width: 80vw}}
+.advanced_button {color:white; background-color: blue;}
+.advanced_grid {text-align: left; background-color: red; display: grid; padding: 5px;
+    grid-column-gap: 5px; grid-row-gap: 5px;
+    grid-template-columns: 200px auto}
+.center {display: block; margin-left: auto; margin-right: auto; width: 50%;}
